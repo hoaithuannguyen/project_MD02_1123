@@ -1,0 +1,27 @@
+/* ProductsAdmin.scss */
+.table_admin {
+    width: 60%;
+    border: 1px solid #ddd;
+    /* border của bảng */
+    button{
+        border: none;
+        margin-left: 2px;
+    }
+}
+
+.table_admin th,
+.table_admin td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table_admin th {
+    background-color: #f2f2f2;
+}
+
+.img_products_admin {
+    max-width: 100px;
+    /* Đặt giới hạn kích thước của hình ảnh */
+    height: auto;
+}

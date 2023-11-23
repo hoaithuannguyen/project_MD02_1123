@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 76px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    .header_logo {
+        margin-left: 50px;
+    }
+
+    .header_home {
+        margin-left: 40px;
+
+        .navlink_home {
+            color: black;
+        }
+
+        .navlink_home:hover {
+            color: rgb(56, 179, 138);
+            font-size: 17px;
+            cursor: pointer;
+        }
+    }
+
+
+
+    .header_intro {
+        margin-left: 20px;
+        color: black;
+    }
+
+    .header_intro:hover {
+        color: rgb(56, 179, 138);
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .header_product {
+        margin-left: 20px;
+        color: black;
+    }
+
+    .header_product:hover {
+        color: rgb(56, 179, 138);
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    // .header_new {
+    //     margin-left: 20px;
+    // }
+
+    .header_contact {
+        margin-left: 20px;
+    }
+
+    .header_contact:hover {
+        color: rgb(56, 179, 138);
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .header_search {
+
+        margin-left: 30px;
+
+        .input_search {
+            width: 430px;
+            height: 38px;
+            outline: none;
+            border: 1px solid rgb(56, 179, 138);
+            padding: 0 10px;
+            cursor: pointer;
+        }
+    }
+
+    .header_user {
+        margin-left: 28px;
+        margin-right: 28px;
+        cursor: pointer;
+
+        .header_user_child {
+            position: absolute;
+            display: none;
+            background-color: rgb(240, 235, 235);
+            width: 120px;
+            height: 70px;
+            left: 1075px;
+            text-align: center;
+
+            .navlink_checkout {
+                color: black;
+            }
+
+            .navlink_checkout:hover {
+                color: rgb(56, 179, 138);
+                font-size: 17px;
+            }
+
+            .navlink_changeinfo {
+                color: black
+            }
+
+            .navlink_changeinfo:hover {
+                color: rgb(56, 179, 138);
+                font-size: 17px;
+            }
+
+            .navlink_login {
+                color: black;
+            }
+
+            .navlink_login:hover {
+                color: rgb(56, 179, 138);
+                font-size: 17px;
+            }
+
+            .header_user_child_one {
+                border-bottom: 1px solid rgb(56, 179, 138);
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                .navlink_register {
+                    color: black;
+                }
+
+                .navlink_register:hover {
+                    color: rgb(56, 179, 138);
+                    font-size: 17px;
+                }
+
+            }
+        }
+    }
+
+    .header_user:hover {
+        .header_user_child {
+            display: block;
+        }
+    }
+
+    .header_bills:hover {
+        background-color: rgb(56, 179, 138);
+        width: 45px;
+        height: 45px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .header_notification {
+        margin-left: 20px;
+    }
+
+}

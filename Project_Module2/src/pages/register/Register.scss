@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body_register {
+    width: 100%;
+    height: 760px;
+    background-color: rgb(243, 243, 246);
+
+    input {
+        outline: none;
+        width: 550px;
+        height: 40px;
+        border: 1px solid #ebebeb;
+        padding: 0 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    input:focus {
+        border: 1px solid rgb(205, 203, 203);
+    }
+
+    .text_register {
+        padding-top: 65px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-bottom: 1px solid rgb(56, 179, 138);
+        font-weight: bold;
+    }
+
+    .personal_information {
+        font-size: 28px;
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+
+    .body_name {
+        margin-left: 350px;
+        margin-top: 20px;
+        font-weight: bold;
+
+        span {
+            position: relative;
+            right: 30px;
+        }
+    }
+
+    .body_button_register {
+        margin-left: 350px;
+        margin-top: 20px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+        .body_button_register_home {
+            margin-left: 30px;
+            font-size: 14px;
+        }
+    }
+
+    button {
+        border: none;
+        background-color: rgb(56, 179, 138);
+        width: 90px;
+        height: 40px;
+        color: white;
+        border-radius: 5px;
+    }
+}

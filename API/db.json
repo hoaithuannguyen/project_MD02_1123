@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "f62b5b5b-1198-45ac-a107-ef3cf8ef574d",
+      "email": "thuan",
+      "phone": "1",
+      "password": "2",
+      "cart": []
+    },
+    {
+      "id": "99c033bc-1290-4c1a-959d-b8d7bc19e2e3",
+      "email": "thuan1",
+      "phone": "1",
+      "password": "1",
+      "cart": []
+    },
+    {
+      "id": "41b3fc21-f7e4-47a9-b918-3b3fb4f0a7de",
+      "email": "thuan2",
+      "phone": "1",
+      "password": "1",
+      "cart": []
+    },
+    {
+      "email": "thuan99@gmail.com",
+      "phone": "0917198687",
+      "password": "Thuan123456*",
+      "id": "f44366a1-d943-4789-b5d1-af7670e6acc5",
+      "cart": []
+    },
+    {
+      "email": "thuan999@gmail.com",
+      "phone": "0917198687",
+      "password": "Thuan1*",
+      "id": "199db5be-cb65-421b-88a5-26e1b6559220",
+      "cart": []
+    },
+    {
+      "email": "thuan68@gmail.com",
+      "phone": "0917198687",
+      "password": "Thuan2*",
+      "id": "9b9e8d10-e109-4dd7-908b-f1c93d0a45ee",
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "description": "helooooooooooooooooooooooooooo",
+      "name": "áo nữ",
+      "price": 19000,
+      "categoryId": 2,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby6-0daebece-6913-487c-abbe-b41a4a1697c3.jpg?v=1600186019183"
+    },
+    {
+      "id": 3,
+      "description": "helooooooooooooooooooooooooooo",
+      "name": "áo nam1",
+      "price": 8000,
+      "categoryId": 2,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443"
+    },
+    {
+      "id": 4,
+      "description": "helooooooooooooooooooooooooooo",
+      "name": "áo nữ1",
+      "price": 6000,
+      "categoryId": 1,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby4-ac4be629-7a47-4647-bdf5-de99f48efc49.jpg?v=1600186026337"
+    },
+    {
+      "id": 5,
+      "description": "helooooooooooooooooooooooooooo",
+      "name": "áo nam2",
+      "price": 9000,
+      "categoryId": 2,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai25-af8a510d-306c-43e9-bfb0-e3ca9643cdd5.jpg?v=1598956627060"
+    },
+    {
+      "id": 6,
+      "description": "helooooooooooooooooooooooooooo",
+      "name": "áo nữ2",
+      "price": 19000,
+      "categoryId": 1,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby6-0daebece-6913-487c-abbe-b41a4a1697c3.jpg?v=1600186019183"
+    },
+    {
+      "id": 7,
+      "description": "helooooooooooooooooooooooooooo",
+      "name": "áo nam3",
+      "price": 8000,
+      "categoryId": 1,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443"
+    },
+    {
+      "name": "thuan",
+      "price": 1,
+      "description": "1",
+      "category": 0,
+      "quantity": 10,
+      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443",
+      "categoryId": "1",
+      "id": 9
+    },
+    {
+      "name": "1",
+      "price": 111,
+      "description": "111",
+      "category": 0,
+      "quantity": 1109,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbanner_1_1.jpg?alt=media&token=86d14038-2b3a-4a9e-aa47-e9d249bd3361",
+      "categoryId": "111",
+      "id": 10
+    },
+    {
+      "name": "1",
+      "price": 111,
+      "description": "111",
+      "category": 0,
+      "quantity": 1109,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbanner_1_1.jpg?alt=media&token=92caccb7-1fac-4d24-b357-c746ad1020e9",
+      "categoryId": "111",
+      "id": 11
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "nam"
+    },
+    {
+      "id": 2,
+      "name": "nu"
+    }
+  ]
+}
