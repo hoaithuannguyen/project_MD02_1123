@@ -1,46 +1,12 @@
 {
   "users": [
     {
-      "id": "f62b5b5b-1198-45ac-a107-ef3cf8ef574d",
-      "email": "thuan",
-      "phone": "1",
-      "password": "2",
-      "cart": []
-    },
-    {
-      "id": "99c033bc-1290-4c1a-959d-b8d7bc19e2e3",
-      "email": "thuan1",
-      "phone": "1",
-      "password": "1",
-      "cart": []
-    },
-    {
-      "id": "41b3fc21-f7e4-47a9-b918-3b3fb4f0a7de",
-      "email": "thuan2",
-      "phone": "1",
-      "password": "1",
-      "cart": []
-    },
-    {
-      "email": "thuan99@gmail.com",
-      "phone": "0917198687",
-      "password": "Thuan123456*",
-      "id": "f44366a1-d943-4789-b5d1-af7670e6acc5",
-      "cart": []
-    },
-    {
-      "email": "thuan999@gmail.com",
-      "phone": "0917198687",
-      "password": "Thuan1*",
-      "id": "199db5be-cb65-421b-88a5-26e1b6559220",
-      "cart": []
-    },
-    {
-      "email": "thuan68@gmail.com",
-      "phone": "0917198687",
-      "password": "Thuan2*",
-      "id": "9b9e8d10-e109-4dd7-908b-f1c93d0a45ee",
-      "cart": []
+      "email": "admin@gmail.com",
+      "phone": "0123456789",
+      "password": "admin",
+      "id": "59c23bd6-390f-4c88-a76d-d099d8d69a91",
+      "cart": [],
+      "role": "admin"
     }
   ],
   "products": [
@@ -136,7 +102,7 @@
     },
     {
       "id": 2,
-      "name": "nu"
+      "name": "nữ"
     }
   ]
 }
