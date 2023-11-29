@@ -54,22 +54,22 @@ export default function Footer() {
                         <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Sản phẩm</h6>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Dành cho bé trai
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{textDecoration:"none"}}>
                                     Dành cho bé gái
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Phụ kiện
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Thông tin thêm
                                 </a>
                             </p>
@@ -78,22 +78,22 @@ export default function Footer() {
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Phần tin tức</h6>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Trang chủ
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Giới thiệu
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Sản phẩm
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset' style={{ textDecoration: "none" }}>
                                     Tin tức
                                 </a>
                             </p>
@@ -122,7 +122,7 @@ export default function Footer() {
 
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)', color: "white" }}>
                 © 2023 Copyright:
-                <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+                <a className='text-reset fw-bold' href='https://mdbootstrap.com/' style={{ textDecoration: "none" }}>
                     IKids-Clothing
                 </a>
             </div>

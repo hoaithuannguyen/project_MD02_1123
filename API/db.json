@@ -1,108 +1,335 @@
 {
   "users": [
     {
-      "email": "admin@gmail.com",
+      "email": "admin",
       "phone": "0123456789",
-      "password": "admin",
+      "password": "1",
       "id": "59c23bd6-390f-4c88-a76d-d099d8d69a91",
+      "cart": [
+        {
+          "id": 5,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "name": "Áo phông 3 màu",
+          "price": "330000",
+          "categoryId": "1",
+          "stocks": 42,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbetrai5.jpg?alt=media&token=89bf91cc-eb8d-4830-99cb-1b3db541e778",
+          "quantity": 1
+        },
+        {
+          "name": "Ba lô đi học",
+          "price": "500000",
+          "description": "Chất liệu da, bền bỉ , hợp thời trang.",
+          "categoryId": "3",
+          "stocks": "30",
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem13.jpg?alt=media&token=39a7ec28-d573-41c0-bab0-0c13561d4205",
+          "id": 13,
+          "quantity": 1
+        }
+      ],
+      "role": "admin",
+      "status": true
+    },
+    {
+      "email": "thuan1@gmail.com",
+      "phone": "0917198687",
+      "password": "Thuan1*",
+      "id": "9daa1ea2-d4f4-4189-abbe-e0ee8d8297ed",
       "cart": [],
-      "role": "admin"
+      "role": "user",
+      "status": false
+    },
+    {
+      "email": "fishyshynn@gmail.com",
+      "phone": "0981888888",
+      "password": "Duong@1503",
+      "id": "c29a32b6-6de4-4f02-be09-2bfead574cc7",
+      "cart": [],
+      "role": "user",
+      "status": true
+    },
+    {
+      "email": "thuan56@gmail.com",
+      "phone": "0981888886",
+      "password": "Thuan1*",
+      "id": "61c0556a-d173-4108-b960-6b3a95179c1c",
+      "cart": [],
+      "role": "user",
+      "status": true
+    },
+    {
+      "email": "thuan16@gmail.com",
+      "phone": "0917198687",
+      "password": "Thuan1*",
+      "id": "29457c4d-9a67-4049-9a12-c303e172362c",
+      "cart": [],
+      "role": "user",
+      "status": true
+    },
+    {
+      "email": "thuan2@gmail.com",
+      "phone": "0917198687",
+      "password": "Thuan1*",
+      "id": "cf68ee39-dc73-422d-92f5-a7b4392fc880",
+      "cart": [
+        {
+          "name": "Mũ nửa đầu thời trang",
+          "price": 200000,
+          "description": "Chất liệu tốt , hợp thời trang.",
+          "categoryId": "3",
+          "stocks": 30,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem2%20(1).jpg?alt=media&token=2e3af7f4-c706-46ab-ac07-22c34e0a6591",
+          "id": 14,
+          "quantity": 1
+        },
+        {
+          "name": "Ba lô đi học",
+          "price": 500000,
+          "description": "Chất liệu da, bền bỉ , hợp thời trang.",
+          "categoryId": "3",
+          "stocks": 30,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem13.jpg?alt=media&token=39a7ec28-d573-41c0-bab0-0c13561d4205",
+          "id": 13,
+          "quantity": 1
+        },
+        {
+          "name": "Váy đôi đẹp",
+          "price": 300000,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "categoryId": "2",
+          "stocks": 30,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fmombaby2%20(1).jpg?alt=media&token=3734c2d0-1c1b-4e66-a911-7203e2c299b3",
+          "id": 12,
+          "quantity": 1
+        },
+        {
+          "name": "Váy 7 sắc cầu vòng",
+          "price": 990000,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "categoryId": "2",
+          "stocks": 30,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbegai2.jpg?alt=media&token=3d019cd0-3da1-455d-a822-8d7f3ade2d87",
+          "id": 11,
+          "quantity": 1
+        }
+      ],
+      "role": "user",
+      "status": true
     }
   ],
   "products": [
     {
       "id": 2,
-      "description": "helooooooooooooooooooooooooooo",
-      "name": "áo nữ",
-      "price": 19000,
-      "categoryId": 2,
-      "quantity": 10,
-      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby6-0daebece-6913-487c-abbe-b41a4a1697c3.jpg?v=1600186019183"
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "name": "Áo phông cọc tay",
+      "price": 200000,
+      "categoryId": "1",
+      "stocks": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbetrai10.jpg?alt=media&token=ff15c4da-dbe1-49cf-9a74-84110fa7d3dd"
     },
     {
       "id": 3,
-      "description": "helooooooooooooooooooooooooooo",
-      "name": "áo nam1",
-      "price": 8000,
-      "categoryId": 2,
-      "quantity": 10,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "name": "Áo kẻ sọc sành điệu",
+      "price": 250000,
+      "categoryId": "1",
+      "stocks": 39,
       "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443"
     },
     {
       "id": 4,
-      "description": "helooooooooooooooooooooooooooo",
-      "name": "áo nữ1",
-      "price": 6000,
-      "categoryId": 1,
-      "quantity": 10,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "name": "Đồ đôi với bé",
+      "price": 590000,
+      "categoryId": "2",
+      "stocks": 40,
       "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby4-ac4be629-7a47-4647-bdf5-de99f48efc49.jpg?v=1600186026337"
     },
     {
       "id": 5,
-      "description": "helooooooooooooooooooooooooooo",
-      "name": "áo nam2",
-      "price": 9000,
-      "categoryId": 2,
-      "quantity": 10,
-      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai25-af8a510d-306c-43e9-bfb0-e3ca9643cdd5.jpg?v=1598956627060"
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "name": "Áo phông 3 màu",
+      "price": 330000,
+      "categoryId": "1",
+      "stocks": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbetrai5.jpg?alt=media&token=89bf91cc-eb8d-4830-99cb-1b3db541e778"
     },
     {
       "id": 6,
-      "description": "helooooooooooooooooooooooooooo",
-      "name": "áo nữ2",
-      "price": 19000,
-      "categoryId": 1,
-      "quantity": 10,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "name": "Áo đỏ đôi với bé",
+      "price": 660000,
+      "categoryId": "2",
+      "stocks": 43,
       "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby6-0daebece-6913-487c-abbe-b41a4a1697c3.jpg?v=1600186019183"
     },
     {
-      "id": 7,
-      "description": "helooooooooooooooooooooooooooo",
-      "name": "áo nam3",
-      "price": 8000,
-      "categoryId": 1,
-      "quantity": 10,
-      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443"
+      "name": "Váy vàng cute",
+      "price": 290000,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "categoryId": "2",
+      "stocks": 46,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbegai4.jpg?alt=media&token=7a23b474-a9e5-4c7c-a407-f2b524cb46e7",
+      "id": 8
     },
     {
-      "name": "thuan",
-      "price": 1,
-      "description": "1",
-      "category": 0,
-      "quantity": 10,
-      "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443",
+      "name": "Áo mặt cười",
+      "price": 220000,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
       "categoryId": "1",
+      "stocks": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbetrai29.jpg?alt=media&token=53b2067a-0eab-4156-8927-47c6787c850a",
       "id": 9
     },
     {
-      "name": "1",
-      "price": 111,
-      "description": "111",
-      "category": 0,
-      "quantity": 1109,
-      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbanner_1_1.jpg?alt=media&token=86d14038-2b3a-4a9e-aa47-e9d249bd3361",
-      "categoryId": "111",
+      "name": "Kính thời trang",
+      "price": 460000,
+      "description": "Kính bảo vệ mắt, hợp thời trang.",
+      "categoryId": "3",
+      "stocks": 20,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem3.jpg?alt=media&token=281d5498-5efa-4609-9a20-6ea2cc0b7d64",
       "id": 10
     },
     {
-      "name": "1",
-      "price": 111,
-      "description": "111",
-      "category": 0,
-      "quantity": 1109,
-      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbanner_1_1.jpg?alt=media&token=92caccb7-1fac-4d24-b357-c746ad1020e9",
-      "categoryId": "111",
+      "name": "Váy 7 sắc cầu vòng",
+      "price": 990000,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "categoryId": "2",
+      "stocks": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbegai2.jpg?alt=media&token=3d019cd0-3da1-455d-a822-8d7f3ade2d87",
       "id": 11
+    },
+    {
+      "name": "Váy đôi đẹp",
+      "price": 300000,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "categoryId": "2",
+      "stocks": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fmombaby2%20(1).jpg?alt=media&token=3734c2d0-1c1b-4e66-a911-7203e2c299b3",
+      "id": 12
+    },
+    {
+      "name": "Ba lô đi học",
+      "price": 500000,
+      "description": "Chất liệu da, bền bỉ , hợp thời trang.",
+      "categoryId": "3",
+      "stocks": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem13.jpg?alt=media&token=39a7ec28-d573-41c0-bab0-0c13561d4205",
+      "id": 13
+    },
+    {
+      "name": "Mũ nửa đầu thời trang",
+      "price": 200000,
+      "description": "Chất liệu tốt , hợp thời trang.",
+      "categoryId": "3",
+      "stocks": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem2%20(1).jpg?alt=media&token=2e3af7f4-c706-46ab-ac07-22c34e0a6591",
+      "id": 14
+    },
+    {
+      "name": "Thắt lưng cho bé",
+      "price": 190000,
+      "description": "Chất liệu da tổng hợp, bền bỉ, hợp thời trang.",
+      "categoryId": "3",
+      "stocks": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem4%20(1).jpg?alt=media&token=975f1165-1d77-47d0-ae51-245440ffd2ac",
+      "id": 15
+    },
+    {
+      "name": "Váy vàng đôi cùng bé",
+      "price": 250000,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "categoryId": "2",
+      "stocks": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fmombaby-1%20(2).jpg?alt=media&token=09904408-089d-4430-b2f4-c352b1f0f6b1",
+      "id": 16
+    },
+    {
+      "name": "Mũ ngựa baby",
+      "price": 300000,
+      "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+      "categoryId": "3",
+      "stocks": 36,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem7%20(1).jpg?alt=media&token=5b2584b2-e222-48ac-afde-461354555a3c",
+      "id": 17
     }
   ],
   "category": [
     {
-      "id": 1,
-      "name": "nam"
+      "name": "Bé trai",
+      "id": 1
     },
     {
       "id": 2,
-      "name": "nữ"
+      "name": "Bé gái"
+    },
+    {
+      "name": "Phụ kiện",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "name": "Hiếu xe điếu",
+      "sdt": "0981123456",
+      "address": "Hải Dương",
+      "user_id": "cf68ee39-dc73-422d-92f5-a7b4392fc880",
+      "total": 1040000,
+      "orderDetails": [
+        {
+          "id": 2,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "name": "Áo phông cọc tay",
+          "price": 200000,
+          "categoryId": "1",
+          "stocks": 44,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fbetrai10.jpg?alt=media&token=ff15c4da-dbe1-49cf-9a74-84110fa7d3dd",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "name": "Áo kẻ sọc sành điệu",
+          "price": 250000,
+          "categoryId": "1",
+          "stocks": 40,
+          "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/betrai20-6e77fb9e-f93d-48ef-90ae-a75ea99a27bc-541c5d46-60b0-4076-9977-15dfc86d130b.jpg?v=1600186039443",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "name": "Đồ đôi với bé",
+          "price": 590000,
+          "categoryId": "2",
+          "stocks": 41,
+          "image": "https://bizweb.dktcdn.net/thumb/large/100/362/077/products/mombaby4-ac4be629-7a47-4647-bdf5-de99f48efc49.jpg?v=1600186026337",
+          "quantity": 1
+        }
+      ],
+      "status": "Đồng ý",
+      "id": 1
+    },
+    {
+      "name": "Hiếu cầy",
+      "sdt": "0981123456",
+      "address": "Hải Dương",
+      "user_id": "61c0556a-d173-4108-b960-6b3a95179c1c",
+      "total": 2700000,
+      "orderDetails": [
+        {
+          "name": "Mũ ngựa baby",
+          "price": 300000,
+          "description": "Chất liệu cotton , thấm hút tốt , mặc thoải mái , hợp thời trang.",
+          "categoryId": "3",
+          "stocks": 45,
+          "image": "https://firebasestorage.googleapis.com/v0/b/project01-8d42c.appspot.com/o/images%2Fitem7%20(1).jpg?alt=media&token=5b2584b2-e222-48ac-afde-461354555a3c",
+          "id": 17,
+          "quantity": 9
+        }
+      ],
+      "status": "Đang chờ",
+      "id": 2
     }
   ]
 }

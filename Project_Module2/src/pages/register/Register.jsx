@@ -65,12 +65,12 @@ export default function Register() {
     api.checkRegister(newUser.email).then((res) => {
       // Bước 4: nhận về res.data
       console.log("RES", res);
-      if (res.data.length != 0) {
-        failed("Tài khoản đã tồn tại");
-        return;
-      }
       if (newUser.password !== newUser.confirmPassword) {
         failed("Mật khẩu không khớp");
+        return;
+      }
+      if (res.data.length != 0) {
+        failed("Tài khoản đã tồn tại");
         return;
       }
       delete newUser.confirmPassword;
@@ -79,6 +79,7 @@ export default function Register() {
         id: uuidv4(),
         cart: [],
         role: "user",
+        status: true
       });
       success("Đăng ký thành công");
       setNewUser({
@@ -88,7 +89,9 @@ export default function Register() {
         password: "",
         confirmPassword: "",
       });
-      navigate("/login");
+      setTimeout(() => {
+        navigate("/login");
+      }, 1500);
     });
   };
   return (
@@ -153,14 +156,14 @@ export default function Register() {
           </div>
           <div className="body_button_register">
             <div>
-              Nếu đã có tài khoản, click vào <NavLink to="/login">đây</NavLink>{" "}
+              Nếu đã có tài khoản, click vào <NavLink style={{ textDecoration: "none" }} to="/login">đây</NavLink>{" "}
               để đăng nhập.
             </div>
           </div>
           <div className="body_button_register">
             <button onClick={handleRegister}>Đăng ký</button>
             <div className="body_button_register_home">
-              <NavLink to="/">Đi đến trang chủ</NavLink>
+              <NavLink style={{textDecoration:"none"}} to="/">Đi đến trang chủ</NavLink>
             </div>
           </div>
         </div>

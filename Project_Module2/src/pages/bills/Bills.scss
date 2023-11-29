@@ -1,0 +1,25 @@
+.div_all_bill {
+    display: flex;
+    flex-wrap: wrap;
+
+    .bills_users {
+        border: 1px solid black;
+        width: 25%;
+        height: auto;
+        margin-right: 20px;
+        margin-left: 40px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+
+    }
+
+    .bills_users div {
+        margin: 10px;
+    }
+
+    .button-bootrap {
+        width: 100px;
+        height: 30px;
+    }
+}

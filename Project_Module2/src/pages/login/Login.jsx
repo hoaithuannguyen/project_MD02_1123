@@ -1,15 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import "./Login.scss"
 import { NavLink, useNavigate } from 'react-router-dom'
-// import axios from "axios";
-// import { notification } from "antd";
 import { failed, success } from '../../utils/noti';
 import api from "../../service/apis/api.user"
-import { useDispatch } from 'react-redux';
-import { isLogin } from '../../redux/reducer/authSlice';
 
 export default function Login() {
-    const dispatch = useDispatch();
     // xử lý lên đầu trang
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -39,11 +34,20 @@ export default function Login() {
         api.checkLogin(user.email, user.password)
             .then((res) => {
                 if (res.data.length != 0) {
-                    localStorage.setItem("userLogin", JSON.stringify(res.data[0]))
-                    success("Đăng nhập thành công")
-                    dispatch(isLogin())
-                    navigate("/");
-                    return
+                    if (res.data[0].role === "admin") {
+                        localStorage.setItem("userLogin", JSON.stringify(res.data[0]))
+                        navigate("/admin");
+                        return
+                    }
+                    if (res.data[0].status) {
+                        localStorage.setItem("userLogin", JSON.stringify(res.data[0]))
+                        success("Đăng nhập thành công")
+                        setTimeout(() => {
+                            navigate("/");
+                        }, 1500);
+                    } else {
+                        failed("Tài khoản đã bị khóa")
+                    }
                 } else {
                     failed("Thông tin đăng nhập sai")
                 }
@@ -85,11 +89,11 @@ export default function Login() {
                         </div>
                     </div>
                     <div className='body_button_register'>
-                        <div>Nếu chưa có tài khoản, click vào <NavLink to="/register">đây</NavLink> để đăng ký.</div>
+                        <div>Nếu chưa có tài khoản, click vào <NavLink to="/register" style={{ textDecoration: "none" }}>đây</NavLink> để đăng ký.</div>
                     </div>
                     <div className='body_button_register'>
                         <button onClick={handleLogin}>Đăng nhập</button>
-                        <div className='body_button_register_home'><NavLink to="/">Đi đến trang chủ</NavLink></div>
+                        <div className='body_button_register_home'><NavLink style={{ textDecoration: "none" }} to="/">Đi đến trang chủ</NavLink></div>
                     </div>
                 </div>
             </div>

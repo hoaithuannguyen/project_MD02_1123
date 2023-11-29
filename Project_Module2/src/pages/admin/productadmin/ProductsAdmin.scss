@@ -1,9 +1,16 @@
-/* ProductsAdmin.scss */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .table_admin {
-    width: 60%;
+    width: 90%;
     border: 1px solid #ddd;
+
     /* border của bảng */
-    button{
+    button {
         border: none;
         margin-left: 2px;
     }
@@ -24,4 +31,63 @@
     max-width: 100px;
     /* Đặt giới hạn kích thước của hình ảnh */
     height: auto;
+}
+//
+.headerAdmin_1 {
+    width: 100%;
+    background-color: #ddd;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.headerAdmin_2 {
+    width: 290px;
+    height: auto;
+    background-color: #ddd;
+    // margin-top: 20px;
+    // margin-left: 20px;
+    text-align: center;
+
+}
+
+.img_headerAdmin {
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+.table_productAdmin{
+    // border: 1px solid black;
+    width: 50%;
+}
+
+input {
+    outline: none;
+    padding-left:5px;
+    cursor: pointer;
+}
+
+textarea{
+    outline: none;
+        padding-left: 5px;
+        cursor: pointer;
+}
+
+.pagination_product{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.quanly{
+    cursor: pointer;
+    color: black !important;
+}
+.quanly:hover{
+    color: white;
+}
+.abc_pro{
+    text-decoration: none !important;
+    color: black;
+}
+.abc_pro:hover{
+    color: white !important;
 }

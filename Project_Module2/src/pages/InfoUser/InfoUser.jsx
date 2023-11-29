@@ -56,7 +56,7 @@ function InfoUser() {
                     <input id='change_password' name='confirmPass' type="password" onChange={handleChangeInput} />
                 </div>
                 <div>
-                    <button type='button' onClick={handleSubmit}>Submit</button>
+                    <button type='button' onClick={handleSubmit}>Xác nhận</button>
                 </div>
             </form>
         </div>

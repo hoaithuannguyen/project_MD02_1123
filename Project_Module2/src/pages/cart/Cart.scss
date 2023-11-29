@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_all_products_cart {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 20px;
+
+    .all_products_cart {
+        border: 1px solid black;
+        width: 250px;
+        height: auto;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+
+     
+
+        .cart_name{
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        .btn_cart_1{
+            width: 20px;
+            height: 20px;
+            border: none;
+        }
+        span{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .cart_btn_delete{
+            border: none;
+        }
+    }
+   
+}
+h3 {
+    margin-left: 65px;
+}
+ h2 {
+     margin-left: 480px;
+ }
+//  .thongtinkhachhang{
+//     border: 1px solid black;
+//     width: 100%;
+//     height: auto;
+//     padding-top: 70px;
+//  }
+ .customer_cart{
+    margin-left: 350px;
+    margin-bottom: 50px;
+    width: 20%;
+ }
+
+.btn_thanhtoan{
+    margin-left: 565px;
+    margin-bottom: 100px;
+    border: none;
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color:rgb(56, 179, 138) ;
+    border-radius: 5px;
+}
+
+td{
+    padding-top: 20px;
+}
+input {
+    width: 400px;
+    height: 40px;
+}
+table td {
+    border: none;
+}

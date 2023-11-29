@@ -13,16 +13,18 @@
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 999;
 
     .header_logo {
-        margin-left: 50px;
+        margin-left: 70px;
     }
 
     .header_home {
-        margin-left: 40px;
+        margin-left: 80px;
 
         .navlink_home {
             color: black;
+            text-decoration: none;
         }
 
         .navlink_home:hover {
@@ -62,6 +64,8 @@
 
     .header_contact {
         margin-left: 20px;
+        margin-right: 180px;
+        color: black;
     }
 
     .header_contact:hover {
@@ -95,29 +99,34 @@
             background-color: rgb(240, 235, 235);
             width: 120px;
             height: 70px;
-            left: 1075px;
+            left: 998px;
             text-align: center;
 
             .navlink_checkout {
                 color: black;
+                text-decoration: none;
             }
 
             .navlink_checkout:hover {
                 color: rgb(56, 179, 138);
                 font-size: 17px;
+                text-decoration: none;
             }
 
             .navlink_changeinfo {
-                color: black
+                color: black;
+                text-decoration: none;
             }
 
             .navlink_changeinfo:hover {
                 color: rgb(56, 179, 138);
                 font-size: 17px;
+                text-decoration: none;
             }
 
             .navlink_login {
                 color: black;
+                text-decoration: none;
             }
 
             .navlink_login:hover {
@@ -132,6 +141,7 @@
 
                 .navlink_register {
                     color: black;
+                text-decoration: none;
                 }
 
                 .navlink_register:hover {

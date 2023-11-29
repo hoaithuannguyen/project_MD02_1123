@@ -8,17 +8,30 @@
 .products_home {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
 
     .img_home {
-        width: 240px;
-        height: 260px;
+        width: 270px;
+        height: auto;
         cursor: pointer;
     }
 
     .products_home_child {
         margin-left: 30px;
+
+        .img_home_div {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    }
+
+    .name_home {
+        margin-top: 10px;
+    }
+
+    .price_home {
+        margin-top: 10px;
     }
 
     .btn_home {
@@ -29,15 +42,87 @@
         width: 80px;
         height: 30px;
         cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
 }
 
-.item-cate {
-    display: inline-block;
-    width: fit-content;
-    margin: 0 20px;
-    cursor: pointer;
-    background-color: aqua;
-    border-radius: 5px;
-    padding: 5px 15px;
+.category_home {
+    background-color: rgb(56, 179, 138);
+    display: flex;
+    margin-top: 30px;
+    width: 96%;
+    margin-left: 30px;
+    max-height: 66px;
+
+    .inp_search_home {
+        position: relative;
+        left: 40px;
+        width: 500px;
+        height: 40px;
+        outline: none;
+        top: 12px;
+        border: 1px solid #ebebeb;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+}
+
+.ul_home {
+    .item-cate {
+        display: inline-block;
+        width: fit-content;
+        margin: 0 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 0px 15px;
+        color: white;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+
+    .allProducts {
+        font-size: 25px;
+        padding-top: 5px;
+    }
+}
+
+.cart_home {
+    position: fixed;
+    top: 15px;
+    left: 1160px;
+    z-index: 999;
+}
+
+.img_banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider_home {
+    overflow: hidden;
+}
+
+.bicart {
+    width: 80px;
+    height: 40px;
+}
+
+.number_card {
+    position: fixed;
+    top: 5px;
+    left: 1198px;
+    z-index: 999;
+    color: red;
+}
+
+.bicart:hover {
+    width: 82px;
+    height: 42px;
+}
+
+.pagination_home {
+    margin-left: 550px;
+    margin-bottom: 40px;
 }

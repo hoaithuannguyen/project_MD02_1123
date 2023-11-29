@@ -1,0 +1,51 @@
+// Add this SCSS code to your component's stylesheet (e.g., BillsAdmin.module.scss)
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    // tr:nth-child(even) {
+    //     background-color: #f9f9f9;
+    // }
+
+    // tr:hover {
+    //     background-color: #ddd;
+    // }
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        margin: 10px 0;
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.div_billAdmin {
+    width: 280px;
+    height: 1000px;
+    background-color: #ddd;
+}
